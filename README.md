@@ -1,8 +1,8 @@
 # Bot Chat
 
-Chat bareng Bot.
+Chat with bot.
 
-# How to install
+## How to install
 
 ```bash
 > pkg install php
@@ -10,7 +10,7 @@ Chat bareng Bot.
 > cd bot-chat
 ```
 
-# Run the tool
+## Run the tool
 
 ```bash
 > pkg install php
