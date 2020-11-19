@@ -4,7 +4,7 @@ namespace Config;
 
 class User
 {
-    public $token = 'ReAVk-kAm6u-HkYKg-5p6B3__';
+    public $token = 'API_TOKEN_HERE';
 
     public function getToken()
     {
