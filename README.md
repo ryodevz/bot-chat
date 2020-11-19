@@ -1,17 +1,17 @@
 # Bot Chat
 
-Chat with bot.
+Chat with bots.
 
-## How to install
+## How to install:
 
-```bash
-> pkg install php
-> git clone https://github.com/ryodevz/bot-chat
-> cd bot-chat
-```
+- pkg install php
+- git clone `https://github.com/ryodevz/bot-chat`
+- cd bot-chat
 
-## Run the tool
+## Configuration
 
-```bash
-> pkg install php
-```
+Set APi Token in Config/User.php
+
+## Run the tool:
+
+- php index.php
