@@ -12,7 +12,7 @@ Chat with bots.
 
 ## Configuration:
 
-Set APi Token in Config/User.php
+Set APi Token in `Config/User.php`
 
 ## Run the tool:
 
