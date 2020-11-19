@@ -17,5 +17,5 @@ Set APi Token in Config/User.php
 ## Run the tool:
 
 ```bash
-> pkg install php
+> php index.php
 ```
