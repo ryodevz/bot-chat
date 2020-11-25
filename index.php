@@ -19,7 +19,7 @@ foreach (['Config/User.php', 'Client/Http.php'] as $class) {
     echo '> You: ';
     $message___ = trim(fgets(STDIN));
 
-    $response___ = json_decode($Http->get('https://afara.my.id/api/sim-simi', [
+    $response___ = json_decode($Http->get('https://afara.my.id/api/v3/sim-simi', [
         'text' => $message___
     ], [
         'Accept: application/json',
@@ -31,6 +31,6 @@ foreach (['Config/User.php', 'Client/Http.php'] as $class) {
         echo "> Bot: {$response___['response']} \n";
         goto main___;
     } else {
-        echo (($response___['message'] ?? null) === 'Unauthenticated.' ? '[!] Invalid API Token, get a free API Token at afara.my.id' : $response___['error']);
+        echo (($response___['message'] ?? null) === 'Unauthenticated.' ? '[!] Invalid API Token, get a free API Token at afara.my.id' : $response___['error'] ?? 'Unknow error.');
     }
 })();
