@@ -19,7 +19,7 @@ foreach (['Config/User.php', 'Client/Http.php'] as $class) {
     echo '> You: ';
     $message___ = trim(fgets(STDIN));
 
-    $response___ = json_decode($Http->get('https://afara.my.id/api/v3/sim-simi', [
+    $response___ = json_decode($Http->get('https://afara.my.id/api/sim-simi', [
         'text' => $message___
     ], [
         'Accept: application/json',
