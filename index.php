@@ -1,7 +1,5 @@
 <?php
 
-// AuthorBy: RyoDev
-
 use Config\User;
 use Client\Http;
 
