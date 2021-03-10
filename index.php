@@ -32,3 +32,5 @@ foreach (['Config/User.php', 'Client/Http.php'] as $class) {
         echo (($response___['message'] ?? null) === 'Unauthenticated.' ? '[!] Invalid API Token, get a free API Token at afara.my.id' : $response___['error'] ?? 'Unknow error.');
     }
 })();
+
+
